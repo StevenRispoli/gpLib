@@ -14,7 +14,7 @@ function getRandomArrayValues(n, array, modFunction){
 	//choose n random indices between 0 and max
 	function setRandomIndices(n){
 		var temp = [],
-			max  = array.length-1;
+		max  = array.length-1;
 			
 		while(max >= 0) temp.push(max--)
 		
@@ -87,7 +87,7 @@ function intersection(set){
 //Takes an array of arrays as a parameter
 function getShallowArrayCombos(array){
 	var res = [],
-		l   = array.length-1;
+	l   = array.length-1;
 
 	function getCombos(l, a, template){
 		var a        = a || 0,
@@ -143,7 +143,7 @@ module.exports = {
 	getRandomArbitrary         : getRandomArbitrary,
 	getRandomArrayValues       : getRandomArrayValues,
 	sortObj                    : sortObj,
-	intersection			   : intersection,
+	intersection		   : intersection,
 	getShallowArrayCombos      : getShallowArrayCombos,
 	HttpBenchmark              : HttpBenchmark
 }
