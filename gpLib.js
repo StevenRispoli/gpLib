@@ -1,6 +1,6 @@
 //get random integer between min and max, both inclusive
 function getRandomIntInclusive(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min
+	return Math.floor(Math.random() * (max - min + 1)) + min
 }
 
 //get random number between min and max, both inclusive
